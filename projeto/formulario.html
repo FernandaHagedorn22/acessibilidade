@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="" content="">
+    <title>Curso</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <ui-view></ui-view>
+ 
+    <script src="//api.handtalk.me/plugin/latest/handtalk.min.js"></script>
+    <script>
+      var ht = new HT({
+        token: "file:///C:/Users/Fernanda%20Vit%C3%B3ria/Desktop/Usabilidades/projeto/sobre.html"
+      });
+    </script>
+
+
+  </head>
+<body>
+    <!-- menu  -->
+
+    <nav class="blue-grey" role="navigation">
+        <div class="nav-wrapper container ">
+          <a id="logo-container" href="#" class="brand-logo">Auto Peças</a>
+          <ul class="right hide-on-med-and-down">
+              <li><a href="index2.html"     accesskey="i"   alt="Meni incial"  title="Menu incial"      tabindex="1 ">Inicio</a></li>
+              <li><a href="sobre.html"      accesskey="s"   alt="Meni incial"  title="Menu Sobre"       tabindex="2">Sobre</a></li>
+              <li><a href="curso.html"      accesskey="a"   alt="Meni incial"  title="Menu Acessorios"  tabindex="3">Acessorios</a></li>
+              <li><a href="formulario.html" accesskey="f"   alt="Meni incial"  title="Menu Formulario"  tabindex="4">Formulario</a></li>
+              
+            </ul>
+      
+            <ul id="nav-mobile" class="sidenav">
+              <li><a href="index2.html"     accesskey="i"    alt="Meni incial"  title="Menu incial"      tabindex="5" i class="large material-icons">store</i></a></li>
+              <li><a href="sobre.html"      accesskey="s"    alt="Meni incial"  title="Menu Sobre"       tabindex="6" i class="large material-icons">supervisor_account</i></a></li>
+              <li><a href="curso.html"      accesskey="c"    alt="Meni incial"  title="Menu Acessorios"  tabindex="7" i class="large material-icons">build</i></a></li>
+              <li><a href="formulario.html" accesskey="m"    alt="Meni incial"  title="Menu Formulario"  tabindex="8" i class="large material-icons">content_paste</i></a></li>
+            </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+
+      <!-- slider -->
+    
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/inov3.jpg"> <!-- random image -->
+            <div class="caption center-align black-text" >
+           
+              
+            </div>
+          </li>
+          <li>
+            <img src="img/m1.jpg"> <!-- random image -->
+            <div class="caption center-align black-text">
+              
+            </div>
+          </li>
+        
+          <li>
+            <img src="img/m2.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              
+              
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- slider -->
+     
+      <div class="container">
+          <div class="section">
+              <div class="col s12 m4">
+                <div class="icon-block">
+                  <h2 class="center brown-text"><i class="medium material-icons">forum</i></h2>
+                  <h5 class="center">Formulario</h5>
+                  
+                   <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input placeholder="Digite o seu nome" id="first_name" type="text" class="validate">
+                          <label for="first_name">Nome</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="last_name" type="text" class="validate" placeholder="Digite o seu sobrenome">
+                          <label for="last_name">Sobrenome</label>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input value="" id="Endereço" type="text" class="validate" placeholder="Digite o seu Endereço">
+                          <label for="Endereço">Endereço</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input value="" id="Endereço" type="number" class="validate" placeholder="Digite o seu Telefone">
+                            <label for="Endereço">Telefone</label>
+                          </div>
+
+                      </div>
+                      
+                      <div class="row">
+                          <div class="input-field col s6">
+                            <textarea id="textarea2" class="materialize-textarea"  placeholder="Digite o sua Opnião sobre o site "data-length="250"></textarea>
+                            <label for="textarea2">Sua Opniao</label>
+                          </div>
+                      
+                        <div class="input-field col s6">
+                          <input id="email" type="email" class="validate" placeholder="Digite o seu email">
+                          <label for="email">Email</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col s12">
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                                <i class="material-icons right">send</i>
+                              </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                   </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      
+        
+
+
+
+
+        <footer class="page-footer teal blue-grey ">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">As Melhores peças para sua moto está aqui!</h5>
+                <p class="grey-text text-lighten-4">É para as pessoas que buscam realmente alcançar os seus objetivos e aceitam receber ajuda para alcançá-los, a fim de que percorram esse caminho de forma mais segura e eficaz. Auto Peças não é um luxo, é a diferença de uma empresa disposta a resolver o seu problema.</p>
+      
+      
+              </div>
+      
+              <div class="col l3 s12 ">
+                  <h5 class="white-text"><i class="meidum material-icons">contact_phone</i> Telefones</h5>
+                <ul>
+                  <li><a class="white-text" href="#!">(16) 3251-4180</a></li>
+                  <li><a class="white-text" href="#!">(16) 3251-8021</a></li>
+                  <li><a class="white-text" href="#!">(16) 3232-7890</a></li>
+                  <li><a class="white-text" href="#!">(16) 3232-4015</a></li>
+                </ul>
+              </div>
+              <div class="col l3 s12">
+                <h5 class="white-text">Redes Sociais</h5>
+                <ul>
+                  <li><a class="white-text" href="#!"><i style="font-size:24px" class="fa">&#xf16d;</i> Instragram</a></li>
+                  <li><a class="white-text" href="#!"><i style="font-size:24px" class="fa">&#xf082;</i> Facebook</a></li>
+                  <li><a class="white-text" href="#!"><i style="font-size:24px" class="fa">&#xf08c;</i> Linkedin</a></li>
+                  <li><a class="white-text" href="#!"><i style="font-size:24px" class="fa">	&#xf0e0;</i> Consultoria@outlook.com</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright ">
+            <div class="container ">
+            Made by Auto Peças 
+            </div>
+          </div>
+        </footer>
+        
+        
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+        // <---slider-->
+            document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.slider');
+                var instances = M.Slider.init(elems, options);
+            });
+
+            // Or with jQuery
+
+            $(document).ready(function(){
+                $('.slider').slider();
+            });
+                    
+    
+    </script>
+
+</body>
+</html>
